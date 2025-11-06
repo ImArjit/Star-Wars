@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useCharacterStore } from "../store/useCharacterStore";
 
 export default function SearchBar({ placeholder = "Search characters..." }) {

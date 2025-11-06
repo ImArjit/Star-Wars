@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { useCharacterStore } from "../store/useCharacterStore";
 import SearchBar from "../components/SearchBar";
 import CharacterGrid from "../components/CharacterGrid";

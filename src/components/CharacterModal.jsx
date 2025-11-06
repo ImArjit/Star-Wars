@@ -1,4 +1,3 @@
-import React from "react";
 import { X } from "lucide-react";
 
 export default function CharacterModal({ char, onClose }) {
@@ -13,7 +12,7 @@ export default function CharacterModal({ char, onClose }) {
       >
         <button
           onClick={onClose}
-          className="absolute top-3 right-3 text-gray-400 hover:text-white transition"
+          className="absolute top-3 right-3 text-gray-400 hover:text-white transition z-50"
           aria-label="Close"
         >
           <X size={24} />
