@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-gradient-to-br from-gray-900 via-slate-900 to-gray-950 text-gray-100 min-h-screen font-sans antialiased;
+}
+
+.container {
+  @apply max-w-6xl mx-auto px-4;
+}
+
+.card {
+  @apply bg-white/5 backdrop-blur-md border border-white/10 shadow-lg rounded-2xl p-4 transition-all duration-300 hover:scale-[1.02] hover:shadow-xl cursor-pointer;
+}
+
+.modal-overlay {
+  @apply fixed inset-0 bg-black/70 flex items-center justify-center z-50;
+}
+
+.modal-content {
+  @apply bg-gray-900 p-6 rounded-xl shadow-2xl max-w-md w-full border border-white/10;
+}
+
+.btn {
+  @apply bg-emerald-500 hover:bg-emerald-600 text-white px-4 py-2 rounded-md transition font-semibold;
+}
+
+.btn-disabled {
+  @apply bg-gray-700 text-gray-400 cursor-not-allowed;
+}
