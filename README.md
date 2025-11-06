@@ -90,8 +90,8 @@ npm run preview
 
 - **Zustand over Context/Redux**: lighter bundle and simpler API for this scale.
 - **Tailwind CSS**: fast development and consistent design tokens. Easy to tweak theme.
-- **Mock auth**: chosen _only and only_ for assignment demonstration. Not secure — do not use in production.
-- **Images**: `picsum.photos` seeded with stable ids for consistent thumbnails (no official character images from SWAPI).
+- **Mock auth**: added a mock auth.
+- **Images**: `picsum.photos` seeded with stable ids for consistent thumbnails.
 - **Pagination based on SWAPI**: SWAPI returns 10 results per page; UI respects that to avoid client-side page slicing.
 
 ---
@@ -100,7 +100,7 @@ npm run preview
 
 ```
 src/
-├─ api/                  # axios instance, helpers (extract id)
+├─ api/                  # axios instance, helpers
 ├─ components/           # SearchBar, CharacterGrid, CharacterCard, SkeletonCard, Modal, Pagination, etc.
 ├─ pages/
 │  └─ LoginPage.jsx
@@ -114,7 +114,7 @@ src/
 
 ## Notes for reviewers / evaluators
 
-- This is a frontend-focused take-home: emphasis on UI quality, state management, and API integration.
+- This is a frontend-focused emphasis on UI quality, state management, and API integration.
 - Authentication is mocked for demonstration.
 - All code is modular and easy to extend (add filters, film/species pages, caching, or real auth).
 
